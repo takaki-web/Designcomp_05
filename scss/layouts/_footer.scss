@@ -1,0 +1,70 @@
+@use "../foundation/import";
+@use "../mixin" as m;
+
+// footerセクション
+.l-index-footer {
+  width: 100%;
+  height: 339px;
+  background-color: import.$color-lightgray3;
+  padding-top: 38px;
+  .l-index-footer__link-wrapper{
+    display: grid;
+    grid-template-columns: 130px 130px;
+    row-gap: 10px;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  .l-index-footer__link{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: import.$color-white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+    border: 1px solid import.$color-lightgray4;
+  }
+  .l-index-footer__company-wrapper{
+    width: 100%;
+    max-width: 281px;
+    margin: 0 auto;
+    position: relative;
+    }
+  .l-index-footer__company-name{
+    font-weight: bold;
+  }
+  .l-index-footer__company-address{
+    margin-top: 17px;
+    font-size: 1.2rem;
+    width: 241px;
+  }
+  .l-index-footer__copyright{
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 281px;
+    margin: 0 auto;
+    margin-top: 35px;
+    position: relative;
+  }
+    }
+
+    @include m.mq(pc) {
+      .l-index-footer {
+        height: 246px;
+        padding-top: 49px;
+        .l-index-footer__content-wrapper{
+          width: 100%;
+          max-width: 1020px;
+          margin: 0 auto;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          gap: 1ch;
+        }
+        .l-index-footer__company-wrapper{
+          margin: 0;
+          }
+          }
+          }
