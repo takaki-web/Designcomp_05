@@ -36,7 +36,7 @@ table {
   display: none;
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .visible-pc {
     display: block;
   }
@@ -52,7 +52,7 @@ table {
   margin-left: 20px;
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .l-index-header .l-index-header__title {
     margin-left: 3.143vw;
   }
@@ -99,7 +99,7 @@ table {
   transform: translate(0, 0) rotate(45deg);
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .l-index-footer {
     height: 76px;
   }
@@ -112,7 +112,7 @@ table {
     height: 10px;
   }
 }
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .l-index-sidebar .l-index-sidebar__side-button {
     background-color: #45CCC4;
     width: 48px;
@@ -181,7 +181,7 @@ table {
   transform: scale(0.62, 0.62) translateX(60px);
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .p-index-fv .p-index-fv__text {
     top: 132px;
     left: 3.143vw;
@@ -259,7 +259,7 @@ table {
   transform: scale(0.6, 0.6);
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .p-index-course .p-index-course__wrapper1 {
     margin-top: 90px;
     padding-bottom: 50.32px;
@@ -750,7 +750,7 @@ table {
   margin: 0;
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .p-index-curriculum .p-index-curriculum__wrapper2 {
     width: 100%;
   }
@@ -869,7 +869,7 @@ table {
   margin-top: 30px;
 }
 
-@media screen and (min-width: 884px) {
+@media screen and (min-width: 1250px) {
   .p-index-sns .p-index-sns__title {
     width: 100%;
     max-width: 930px;
