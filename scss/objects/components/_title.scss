@@ -1,0 +1,18 @@
+@use "../../foundation/import";
+@use "../../mixin" as m;
+
+// Base (Mobile First)
+.c-container-title{
+	border-top: 1px solid import.$color-black;
+	border-bottom: 1px solid import.$color-black;
+	width: 89.744vw;
+	max-width: 840px;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+@include m.mq(pc) {
+}
