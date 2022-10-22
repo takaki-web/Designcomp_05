@@ -328,7 +328,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		margin-left: unquote('min(9.429vw, 132px)'); //scssでmin()とmax()を使用する場合
+		margin-left: 10px;
 	}
 	.p-index-curriculum__wrapper5-container-result{
 		font-weight: bold;
