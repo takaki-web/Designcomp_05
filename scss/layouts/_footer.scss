@@ -3,68 +3,58 @@
 
 // footerセクション
 .l-index-footer {
+  position: sticky;
+  bottom: 0vh;
   width: 100%;
-  height: 339px;
-  background-color: import.$color-lightgray3;
-  padding-top: 38px;
+  height: 54px;
+  background-color: import.$color-green;
   .l-index-footer__link-wrapper{
     display: grid;
-    grid-template-columns: 130px 130px;
-    row-gap: 10px;
-    justify-content: center;
-    padding-bottom: 25px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
   }
   .l-index-footer__link{
     display: block;
-    width: 120px;
-    height: 40px;
-    background: import.$color-white;
+    width: 100%;
+    height: 54px;
+    font-size: 1rem;
+    color: import.$color-white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1ch;
-    border: 1px solid import.$color-lightgray4;
-  }
-  .l-index-footer__company-wrapper{
-    width: 100%;
-    max-width: 281px;
-    margin: 0 auto;
-    position: relative;
+    gap: 2ch;
+    border-right: 1px solid import.$color-white;
+    &:last-child{
+      border: none;
     }
-  .l-index-footer__company-name{
-    font-weight: bold;
-  }
-  .l-index-footer__company-address{
-    margin-top: 17px;
-    font-size: 1.2rem;
-    width: 241px;
-  }
-  .l-index-footer__copyright{
-    font-size: 1.2rem;
-    width: 100%;
-    max-width: 281px;
-    margin: 0 auto;
-    margin-top: 35px;
-    position: relative;
-  }
+    &::before{
+      content:"";
+      display: inline-block;
+      vertical-align: middle;
+      color: import.$color-white;
+      line-height: 1;
+      width: 9px;
+      height: 9px;
+      border: 0.1em solid currentColor;
+      border-left: 0;
+      border-bottom: 0;
+      box-sizing: border-box;
+      transform: translate(0,0) rotate(45deg);
+    }
+}
+
     }
 
     @include m.mq(pc) {
       .l-index-footer {
-        height: 246px;
-        padding-top: 49px;
-        .l-index-footer__content-wrapper{
-          width: 100%;
-          max-width: 1020px;
-          margin: 0 auto;
-          display: flex;
-          flex-direction: row-reverse;
-          justify-content: space-between;
-          gap: 1ch;
-        }
-        .l-index-footer__company-wrapper{
-          margin: 0;
+        height: 76px;
+        .l-index-footer__link{
+          height: 76px;
+          font-size: 2rem;
+          &::before{
+            width: 10px;
+            height: 10px;
           }
+            }
           }
-          }
+                }
