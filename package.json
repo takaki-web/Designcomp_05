@@ -1,5 +1,5 @@
 {
-  "name": "designcomp_03",
+  "name": "designcomp_05",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/takaki-web/Designcomp_03.git"
+    "url": "git+https://github.com/takaki-web/Designcomp_05.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/takaki-web/Designcomp_03/issues"
+    "url": "https://github.com/takaki-web/Designcomp_05/issues"
   },
-  "homepage": "https://github.com/takaki-web/Designcomp_03#readme",
+  "homepage": "https://github.com/takaki-web/Designcomp_05#readme",
   "devDependencies": {
     "sass": "^1.55.0"
   }
