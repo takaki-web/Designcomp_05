@@ -4,38 +4,38 @@
 
 // sidebarセクション
 @include m.mq(pc) {
-	.l-index-sidebar{
-	.l-index-sidebar__side-button{
-		background-color: import.$color-green;
-		width: 48px;
-		height: 210px;
-		position: fixed;
-		right: 0;
-		top: 5vh;
-		writing-mode: vertical-rl;
-		font-weight: bold;
-		font-size: 2rem;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		&::before{
-			content:"";
-			display: inline-block;
-			vertical-align: middle;
-			color: import.$color-black;
-			line-height: 1;
-			width: 10px;
-			height: 10px;
-			border: 0.1em solid currentColor;
-			border-left: 0;
-			border-bottom: 0;
-			box-sizing: border-box;
-			transform: translate(0,-20px) rotate(45deg);
-		}
-		&:hover{
-			filter: brightness(1.75);
-		}
-	}
-}
+  .l-index-sidebar {
+    .l-index-sidebar__side-button {
+      background-color: import.$color-green;
+      width: 48px;
+      height: 210px;
+      position: fixed;
+      right: 0;
+      top: 5vh;
+      writing-mode: vertical-rl;
+      font-weight: bold;
+      font-size: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      &::before {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        color: import.$color-black;
+        line-height: 1;
+        width: 10px;
+        height: 10px;
+        border: 0.1em solid currentColor;
+        border-left: 0;
+        border-bottom: 0;
+        box-sizing: border-box;
+        transform: translate(0, -20px) rotate(45deg);
+      }
+      &:hover {
+        filter: brightness(1.75);
+      }
+    }
+  }
 }

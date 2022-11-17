@@ -3,58 +3,58 @@
 // Base (Mobile First)
 
 // snsセクション
-.p-index-sns{
-	// Retinaディスプレイ用
-	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	.p-index-sns {
-	background-image: url(/img/pc/リピートグリッド-4@2x.webp);
-	}
-	}
-	background-image: url(/img/pc/リピートグリッド-4.webp);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	.p-index-sns__title{
-		border-top: 1px solid import.$color-black;
-		border-bottom: 1px solid import.$color-black;
-		width: 350px;
-		height: 86px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		font-weight: bold;
-		font-size: 2.8rem;
-		margin-top: 51px;
-	}
-	.p-index-sns__timeline{
-		margin-top: 41px;
-	}
-	.p-index-sns__follow-wrapper{
-		padding-bottom: 30px;
-	}
-	.p-index-sns__follow{
-		width: 200px;
-		height: 60px;
-		border: 1px solid import.$color-heavy-gray;
-		border-radius: 60px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 30px;
-		&:hover{
-			background-color: import.$color-green;
-			color: import.$color-white;
-		}
-	}
+.p-index-sns {
+  // Retinaディスプレイ用
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .p-index-sns {
+      background-image: url(/img/pc/リピートグリッド-4@2x.webp);
+    }
+  }
+  background-image: url(/img/pc/リピートグリッド-4.webp);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .p-index-sns__title {
+    border-top: 1px solid import.$color-black;
+    border-bottom: 1px solid import.$color-black;
+    width: 350px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-top: 51px;
+  }
+  .p-index-sns__timeline {
+    margin-top: 41px;
+  }
+  .p-index-sns__follow-wrapper {
+    padding-bottom: 30px;
+  }
+  .p-index-sns__follow {
+    width: 200px;
+    height: 60px;
+    border: 1px solid import.$color-heavy-gray;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    &:hover {
+      background-color: import.$color-green;
+      color: import.$color-white;
+    }
+  }
 }
 @include m.mq(pc) {
-	.p-index-sns{
-	.p-index-sns__title{
-		width: 100%;
-		max-width: 930px;
-	}
-	}
+  .p-index-sns {
+    .p-index-sns__title {
+      width: 100%;
+      max-width: 930px;
+    }
+  }
 }

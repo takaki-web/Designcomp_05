@@ -4,51 +4,50 @@
 
 // fvセクション
 .p-index-fv {
-  .p-index-fv__img-wrapper{
+  .p-index-fv__img-wrapper {
     width: 100vw;
-    img{
+    img {
       width: 100%;
     }
   }
-  .p-index-fv__text{
+  .p-index-fv__text {
     position: absolute;
     top: 40px;
     left: 0;
-    transform:scale(0.5,0.5) translateX(-170px);
+    transform: scale(0.5, 0.5) translateX(-170px);
   }
-  .p-index-fv__button{
+  .p-index-fv__button {
     position: absolute;
     top: 214px;
     left: 0;
-    transform:scale(0.6,0.6) translateX(-80px);
+    transform: scale(0.6, 0.6) translateX(-80px);
   }
-  .p-index-fv__circle{
+  .p-index-fv__circle {
     position: absolute;
     right: 0vw;
     top: 315px;
-    transform:scale(0.62,0.62) translateX(60px);
+    transform: scale(0.62, 0.62) translateX(60px);
   }
-
 }
 
 @include m.mq(pc) {
   .p-index-fv {
-    .p-index-fv__text{
+    .p-index-fv__text {
       top: 132px;
       left: 3.143vw;
-      transform:scale(1,1) translateX(0);
+      transform: scale(1, 1) translateX(0);
     }
-    .p-index-fv__button{
+    .p-index-fv__button {
       top: 352px;
       left: 3.143vw;
-      transform:scale(1,1) translateX(0);
+      transform: scale(1, 1) translateX(0);
     }
 
-    .p-index-fv__circle{
+    .p-index-fv__circle {
       position: absolute;
       right: 2vw;
       top: 536px;
-      transform:scale(1,1) translateX(0);
+      transform: scale(1, 1) translateX(0);
     }
   }
 }

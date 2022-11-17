@@ -3,559 +3,557 @@
 // Base (Mobile First)
 
 // curriculumセクション
-.p-index-curriculum{
-	.p-index-curriculum__wrapper1{
-		background-color: import.$color-lightgray1;
-	}
-	.p-index-curriculum__wrapper1-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		gap: 1ch;
-		transform: translateY(-80px);
-	}
-	.p-index-curriculum__text{
-		font-size: 2.4rem;
-		font-weight: bold;
-		margin-top: 26px;
-		padding-bottom: 50px;
-	}
-	.p-index-curriculum__list{
-		padding-bottom: 30px;
-	}
-	.p-index-curriculum__wrapper2{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 350px;
-		margin: 0 auto;
-		margin-top: 50px;
-	}
-	.p-index-curriculum__wrapper2-container{
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 253px repeat(2, 83px);
-		grid-column-gap: 80px;
-		grid-row-gap: 40px;
-		margin-top: 40px;
-		padding-bottom: 40px;
-	}
-	.p-index-curriculum__wrapper2-course{
-		height: 17px;
-		background-color: import.$color-red;
-		color: import.$color-white;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.p-index-curriculum__wrapper2-img-wrapper{
-		height: 180px;
-		img{
-			margin-top: 10px;
-			width: 100%;
-		}
-	}
-	.p-index-curriculum__wrapper2-text{
-		margin-top: 25px;
-		text-align: center;
-		font-size: 1.4rem;
-		line-height: 1.78;
-	}
-	.p-index-curriculum__wrapper2-lists{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.p-index-curriculum__wrapper2-lists:nth-child(1){
-		grid-area: 1 / 1 / 2 / 5;
-	}
+.p-index-curriculum {
+  .p-index-curriculum__wrapper1 {
+    background-color: import.$color-lightgray1;
+  }
+  .p-index-curriculum__wrapper1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1ch;
+    transform: translateY(-80px);
+  }
+  .p-index-curriculum__text {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 26px;
+    padding-bottom: 50px;
+  }
+  .p-index-curriculum__list {
+    padding-bottom: 30px;
+  }
+  .p-index-curriculum__wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .p-index-curriculum__wrapper2-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 253px repeat(2, 83px);
+    grid-column-gap: 80px;
+    grid-row-gap: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+  }
+  .p-index-curriculum__wrapper2-course {
+    height: 17px;
+    background-color: import.$color-red;
+    color: import.$color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-index-curriculum__wrapper2-img-wrapper {
+    height: 180px;
+    img {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  .p-index-curriculum__wrapper2-text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.78;
+  }
+  .p-index-curriculum__wrapper2-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-index-curriculum__wrapper2-lists:nth-child(1) {
+    grid-area: 1 / 1 / 2 / 5;
+  }
 
-	.p-index-curriculum__wrapper2-lists:nth-child(2){
-		grid-area: 2 / 1 / 3 / 5;
-	}
-	.p-index-curriculum__wrapper2-lists:nth-child(3){
-		grid-area: 3 / 1 / 4 / 5;
-	}
+  .p-index-curriculum__wrapper2-lists:nth-child(2) {
+    grid-area: 2 / 1 / 3 / 5;
+  }
+  .p-index-curriculum__wrapper2-lists:nth-child(3) {
+    grid-area: 3 / 1 / 4 / 5;
+  }
 
-	.p-index-curriculum__wrapper2-description{
-		font-size: 1.2rem;
-		margin-top: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.p-index-curriculum__wrapper2-lists:nth-child(1) .p-index-curriculum__wrapper2-description{
-		padding: 0;
-	}
-	.p-index-curriculum__wrapper2-container2{
-		width: 126px;
-		margin: 0 auto;
-		&::after{
-			content:"";
-			display: inline-block;
-			vertical-align: middle;
-			color: import.$color-black;
-			line-height: 1;
-			width: 10px;
-			height: 10px;
-			border: 0.1em solid currentColor;
-			border-left: 0;
-			border-bottom: 0;
-			box-sizing: border-box;
-			transform: translate(130px,-20px) rotate(45deg);
-		}
+  .p-index-curriculum__wrapper2-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .p-index-curriculum__wrapper2-lists:nth-child(1)
+    .p-index-curriculum__wrapper2-description {
+    padding: 0;
+  }
+  .p-index-curriculum__wrapper2-container2 {
+    width: 126px;
+    margin: 0 auto;
+    &::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      color: import.$color-black;
+      line-height: 1;
+      width: 10px;
+      height: 10px;
+      border: 0.1em solid currentColor;
+      border-left: 0;
+      border-bottom: 0;
+      box-sizing: border-box;
+      transform: translate(130px, -20px) rotate(45deg);
+    }
+  }
+  .p-index-curriculum__wrapper2-other {
+    border-bottom: 1px solid import.$color-black;
+    font-size: 1.4rem;
+  }
+  .p-index-curriculum__wrapper2-container3 {
+    background-color: import.$color-lightblue;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .p-index-curriculum__wrapper2-container3-svg {
+    margin-top: 25px;
+  }
+  .p-index-curriculum__wrapper2-container3-img-wrapper {
+    transform: translate(150px, -50px);
+  }
+  .p-index-curriculum__wrapper2-container4 {
+    background-color: import.$color-lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+  }
+  .p-index-curriculum__wrapper2-container4-svg {
+    transform: translate(-100px, -30px);
+  }
 
-	}
-	.p-index-curriculum__wrapper2-other{
-		border-bottom: 1px solid import.$color-black;
-		font-size: 1.4rem;
-	}
-	.p-index-curriculum__wrapper2-container3{
-		background-color: import.$color-lightblue;
-		width: 100vw;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 20px;
-		padding-top: 40px;
-		padding-bottom: 50px;
-	}
-	.p-index-curriculum__wrapper2-container3-svg{
-		margin-top: 25px;
-	}
-	.p-index-curriculum__wrapper2-container3-img-wrapper{
-		transform: translate(150px,-50px);
-	}
-	.p-index-curriculum__wrapper2-container4{
-		background-color: import.$color-lightblue;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 100vw;
-		margin-top: 50px;
-	}
-	.p-index-curriculum__wrapper2-container4-svg{
-		transform: translate(-100px,-30px);
-	}
+  .p-index-curriculum__wrapper2-container4-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    transform: translate(0, -30px);
+  }
+  .p-index-curriculum__wrapper2-container4-text {
+    font-size: 1.4rem;
+    line-height: 1.79;
+  }
+  .p-index-curriculum__wrapper2-container4-text-title {
+    font-weight: bold;
+    padding-bottom: 21px;
+    font-size: 1.7rem;
+  }
 
-	.p-index-curriculum__wrapper2-container4-sub-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 350px;
-		transform: translate(0,-30px);
-	}
-	.p-index-curriculum__wrapper2-container4-text{
-		font-size: 1.4rem;
-		line-height: 1.79;
-	}
-	.p-index-curriculum__wrapper2-container4-text-title{
-		font-weight: bold;
-		padding-bottom: 21px;
-		font-size: 1.7rem;
-	}
+  .p-index-curriculum__wrapper2-container4-text span {
+    font-weight: bold;
+    background-color: import.$color-yellow;
+  }
+  .p-index-curriculum__wrapper2-container4-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .p-index-curriculum__wrapper3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 350px;
+  }
+  .p-index-curriculum__wrapper3-text {
+    font-size: 1.4rem;
+    margin-top: 25px;
+    line-height: 1.78;
+  }
+  .p-index-curriculum__wrapper3-img-wrapper {
+    margin-top: 40px;
+    width: 100vw;
+  }
+  .p-index-curriculum__wrapper3-img-wrapper img {
+    width: 100%;
+  }
+  .p-index-curriculum__wrapper4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 350px;
+  }
+  .p-index-curriculum__wrapper4-text {
+    text-align: start;
+    margin-top: 25px;
+    font-size: 1.4rem;
+    line-height: 1.78;
+  }
+  .p-index-curriculum__wrapper4-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-index-curriculum__wrapper4-lists {
+    display: grid;
+    grid-template-columns: 260px;
+    grid-template-rows: repeat(8, 156px) 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+  .p-index-curriculum__wrapper4-list {
+    background-color: import.$color-lightgray3;
+    width: 260px;
+    height: 156px;
+    padding: 20px 18px 20px 20px;
+  }
+  .p-index-curriculum__wrapper4-label {
+    display: block;
+    background-color: import.$color-heavy-gray;
+    color: import.$color-white;
+    font-size: 1.2rem;
+    width: 40px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-index-curriculum__wrapper4-name {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.4rem;
+  }
+  .p-index-curriculum__wrapper4-list-text {
+    width: 225px;
+    height: 62px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+  .p-index-curriculum__wrapper4-container2 {
+    width: 126px;
+    margin: 0 auto;
+    &::after {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      color: import.$color-black;
+      line-height: 1;
+      width: 10px;
+      height: 10px;
+      border: 0.1em solid currentColor;
+      border-left: 0;
+      border-bottom: 0;
+      box-sizing: border-box;
+      transform: translate(130px, -20px) rotate(45deg);
+    }
+  }
+  .p-index-curriculum__wrapper4-other {
+    border-bottom: 1px solid import.$color-black;
+    font-size: 1.4rem;
+  }
+  .p-index-curriculum__wrapper5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 350px;
+  }
 
-	.p-index-curriculum__wrapper2-container4-text span{
-		font-weight: bold;
-		background-color: import.$color-yellow;
-	}
-	.p-index-curriculum__wrapper2-container4-img-wrapper{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 15px;
-	}
-	.p-index-curriculum__wrapper3{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 0 auto;
-		margin-top: 50px;
-		width: 350px;
-	}
-	.p-index-curriculum__wrapper3-text{
-		font-size: 1.4rem;
-		margin-top: 25px;
-		line-height: 1.78;
-	}
-	.p-index-curriculum__wrapper3-img-wrapper{
-		margin-top: 40px;
-		width: 100vw;
-	}
-	.p-index-curriculum__wrapper3-img-wrapper img{
-		width: 100%;
-	}
-	.p-index-curriculum__wrapper4{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 0 auto;
-		margin-top: 50px;
-		width: 350px;
-	}
-	.p-index-curriculum__wrapper4-text{
-		text-align: start;
-		margin-top: 25px;
-		font-size: 1.4rem;
-		line-height: 1.78;
-	}
-	.p-index-curriculum__wrapper4-container{
-		margin-top: 40px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.p-index-curriculum__wrapper4-lists{
-		display: grid;
-		grid-template-columns: 260px;
-		grid-template-rows: repeat(8, 156px) 1fr;
-		grid-column-gap: 30px;
-		grid-row-gap: 30px;
-		padding-bottom: 30px;
-		margin-top: 30px;
-	}
-	.p-index-curriculum__wrapper4-list{
-		background-color: import.$color-lightgray3;
-		width: 260px;
-		height: 156px;
-		padding: 20px 18px 20px 20px;
-	}
-	.p-index-curriculum__wrapper4-label{
-		display: block;
-		background-color: import.$color-heavy-gray;
-		color: import.$color-white;
-		font-size: 1.2rem;
-		width: 40px;
-		height: 16px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.p-index-curriculum__wrapper4-name{
-		font-weight: bold;
-		margin-top: 10px;
-		font-size: 1.4rem;
-	}
-	.p-index-curriculum__wrapper4-list-text{
-		width: 225px;
-		height: 62px;
-		font-size: 1.4rem;
-		margin-top: 10px;
-	}
-	.p-index-curriculum__wrapper4-container2{
-		width: 126px;
-		margin: 0 auto;
-		&::after{
-			content:"";
-			display: inline-block;
-			vertical-align: middle;
-			color: import.$color-black;
-			line-height: 1;
-			width: 10px;
-			height: 10px;
-			border: 0.1em solid currentColor;
-			border-left: 0;
-			border-bottom: 0;
-			box-sizing: border-box;
-			transform: translate(130px,-20px) rotate(45deg);
-		}
+  .p-index-curriculum__wrapper5-text {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-bottom: 40px;
+    line-height: 1.78;
+  }
+  .p-index-curriculum__wrapper5-img-wrapper {
+    margin-top: 25px;
+    padding-bottom: 60px;
+    img {
+      width: 100%;
+    }
+  }
+  .p-index-curriculum__wrapper5-container {
+    background: url(/img/component/グループ\ 73.svg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    max-width: 840px;
+    width: 100%;
+    height: 240px;
+  }
+  .p-index-curriculum__wrapper5-container:nth-child(7) {
+    margin-top: 30px;
+  }
+  .p-index-curriculum__wrapper5-container-img-wrapper {
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+    img {
+      clip-path: circle(50% at 50% 50%);
+    }
+  }
+  .p-index-curriculum__wrapper5-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .p-index-curriculum__wrapper5-container-result {
+    font-weight: bold;
+    background-color: import.$color-white;
+    width: 219px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .p-index-curriculum__wrapper5-container-name {
+    font-weight: bold;
+    margin-top: 25px;
+  }
+  .p-index-curriculum__wrapper5-container-text {
+    margin-top: 25px;
+    line-height: 1.5;
+    max-width: 390px;
+    height: 69px;
+    font-size: 1.3rem;
+  }
+  .p-index-curriculum__wrapper6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 120px;
+  }
 
-	}
-	.p-index-curriculum__wrapper4-other{
-		border-bottom: 1px solid import.$color-black;
-		font-size: 1.4rem;
-	}
-	.p-index-curriculum__wrapper5{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin: 0 auto;
-		margin-top: 50px;
-		width: 350px;
-	}
+  .p-index-curriculum__wrapper6-text {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1.4rem;
+  }
+  .p-index-curriculum__wrapper6-lists {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 240px);
+    grid-gap: 50px;
+  }
+  .p-index-curriculum__wrapper6-list {
+    width: 240px;
+    height: 160px;
+    border: 1px solid import.$color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    &::after {
+      content: "";
+      width: 260px;
+      height: 180px;
+      background-color: import.$color-lightblue;
+      z-index: -1;
+      position: absolute;
+    }
+  }
 
-	.p-index-curriculum__wrapper5-text{
-		font-size: 1.4rem;
-		text-align: center;
-		margin: 0 auto;
-		margin-top: 25px;
-		padding-bottom: 40px;
-		line-height: 1.78;
-	}
-	.p-index-curriculum__wrapper5-img-wrapper{
-		margin-top: 25px;
-		padding-bottom: 60px;
-		img{
-			width: 100%;
-		}
-	}
-	.p-index-curriculum__wrapper5-container{
-		background:url(/img/component/グループ\ 73.svg);
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		margin-top: 25px;
-		max-width: 840px;
-		width: 100%;
-		height: 240px;
-	}
-	.p-index-curriculum__wrapper5-container:nth-child(7) {
-		margin-top: 30px;
-	}
-	.p-index-curriculum__wrapper5-container-img-wrapper{
-		margin-left: 10px;
-		width: 90px;
-		height: 90px;
-		img{
-			clip-path: circle(50% at 50% 50%);
-		}
-	}
-	.p-index-curriculum__wrapper5-sub-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-left: 10px;
-	}
-	.p-index-curriculum__wrapper5-container-result{
-		font-weight: bold;
-		background-color: import.$color-white;
-		width: 219px;
-		height: 31px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.p-index-curriculum__wrapper5-container-name{
-		font-weight: bold;
-		margin-top: 25px;
-	}
-	.p-index-curriculum__wrapper5-container-text{
-		margin-top: 25px;
-		line-height: 1.5;
-		max-width: 390px;
-		height: 69px;
-		font-size: 1.3rem;
-	}
-	.p-index-curriculum__wrapper6{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 350px;
-		margin: 0 auto;
-		margin-top: 50px;
-		padding-bottom: 120px;
-	}
+  .p-index-curriculum__wrapper6-container {
+    background-color: import.$color-lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+  }
 
-	.p-index-curriculum__wrapper6-text{
-		width: 100%;
-		height: 60px;
-		text-align: center;
-		margin-top: 25px;
-		font-size: 1.4rem;
-	}
-	.p-index-curriculum__wrapper6-lists{
-		margin-top: 40px;
-		display: grid;
-		grid-template-columns:repeat(1, 240px);
-		grid-gap: 50px;
-	}
-	.p-index-curriculum__wrapper6-list{
-		width: 240px;
-		height: 160px;
-		border: 1px solid import.$color-black;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		position: relative;
-		font-size: 2rem;
-		font-weight: bold;
-		text-align: center;
-		&::after{
-			content:"";
-			width: 260px;
-			height: 180px;
-			background-color: import.$color-lightblue;
-			z-index: -1;
-			position: absolute;
-		}
-	}
+  .p-index-curriculum__wrapper6-container-svg {
+    transform: translate(-100px, -30px);
+  }
 
-	.p-index-curriculum__wrapper6-container{
-		background-color: import.$color-lightblue;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 100vw;
-		margin-top: 50px;
-	}
+  .p-index-curriculum__wrapper6-container-sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    transform: translate(0, -30px);
+  }
 
-	.p-index-curriculum__wrapper6-container-svg{
-		transform: translate(-100px,-30px);
-	}
+  .p-index-curriculum__wrapper6-container-text {
+    font-size: 1.4rem;
+    line-height: 1.79;
+  }
+  .p-index-curriculum__wrapper6-container-text span {
+    font-weight: bold;
+    background-color: import.$color-yellow;
+  }
 
-	.p-index-curriculum__wrapper6-container-sub-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		width: 350px;
-		transform: translate(0,-30px);
-	}
+  .p-index-curriculum__wrapper6-container-text-title {
+    font-weight: bold;
+    padding-bottom: 21px;
+    font-size: 1.7rem;
+  }
+  .p-index-curriculum__wrapper6-title {
+    margin-top: 40.58px;
+  }
+  .p-index-curriculum__wrapper6-lists2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+  }
+  .p-index-curriculum__wrapper6-lists2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  .p-index-curriculum__wrapper6-lists2:nth-of-type(2) {
+    margin-top: 14px;
+  }
 
-	.p-index-curriculum__wrapper6-container-text{
-		font-size: 1.4rem;
-		line-height: 1.79;
-	}
-	.p-index-curriculum__wrapper6-container-text span{
-		font-weight: bold;
-		background-color: import.$color-yellow;
-	}
-
-	.p-index-curriculum__wrapper6-container-text-title{
-		font-weight: bold;
-		padding-bottom: 21px;
-		font-size: 1.7rem;
-	}
-	.p-index-curriculum__wrapper6-title{
-		margin-top: 40.58px;
-	}
-	.p-index-curriculum__wrapper6-lists2-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		margin-top: 22px;
-	}
-	.p-index-curriculum__wrapper6-lists2{
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		font-size: 1.1rem;
-	}
-	.p-index-curriculum__wrapper6-lists2:nth-of-type(2){
-		margin-top: 14px;
-	}
-
-	.p-index-curriculum__wrapper6-lists2-list{
-		font-weight: bold;
-		position: relative;
-		margin-left: 15px;
-		span{
-			color: import.$color-green;
-		}
-		&:nth-child(3n+1){
-			margin: 0;
-		}
-	}
+  .p-index-curriculum__wrapper6-lists2-list {
+    font-weight: bold;
+    position: relative;
+    margin-left: 15px;
+    span {
+      color: import.$color-green;
+    }
+    &:nth-child(3n + 1) {
+      margin: 0;
+    }
+  }
 }
 @include m.mq(pc) {
-	.p-index-curriculum{
-	.p-index-curriculum__wrapper2{
-		width: 100%;
-	}
-	.p-index-curriculum__wrapper2-container{
-		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: 253px 83px;
-	}
-	.p-index-curriculum__wrapper2-lists:nth-child(2){
-		grid-area: 2 / 2 / 3 / 3;
-	}
-	.p-index-curriculum__wrapper2-lists:nth-child(3){
-		grid-area: 2 / 3 / 3 / 4;
-	}
+  .p-index-curriculum {
+    .p-index-curriculum__wrapper2 {
+      width: 100%;
+    }
+    .p-index-curriculum__wrapper2-container {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 253px 83px;
+    }
+    .p-index-curriculum__wrapper2-lists:nth-child(2) {
+      grid-area: 2 / 2 / 3 / 3;
+    }
+    .p-index-curriculum__wrapper2-lists:nth-child(3) {
+      grid-area: 2 / 3 / 3 / 4;
+    }
 
-	.p-index-curriculum__wrapper2-container4-svg{
-		transform: translate(-330px,-30px);
-	}
+    .p-index-curriculum__wrapper2-container4-svg {
+      transform: translate(-330px, -30px);
+    }
 
-	.p-index-curriculum__wrapper2-container4-sub-container{
-		flex-direction: row;
-		width: 100%;
-	}
-	.p-index-curriculum__wrapper2-container4-text{
-		width: 518px;
-	}
+    .p-index-curriculum__wrapper2-container4-sub-container {
+      flex-direction: row;
+      width: 100%;
+    }
+    .p-index-curriculum__wrapper2-container4-text {
+      width: 518px;
+    }
 
-	.p-index-curriculum__wrapper2-container4-img-wrapper{
-		margin-left: 68px;
-	}
-	.p-index-curriculum__wrapper3-text{
-		text-align: center;
-	}
-	.p-index-curriculum__wrapper4{
-		width: 100%;
-	}
+    .p-index-curriculum__wrapper2-container4-img-wrapper {
+      margin-left: 68px;
+    }
+    .p-index-curriculum__wrapper3-text {
+      text-align: center;
+    }
+    .p-index-curriculum__wrapper4 {
+      width: 100%;
+    }
 
-	.p-index-curriculum__wrapper4-text{
-		text-align: center;
-		margin-top: 25px;
-		width: 490px;
-	}
-	.p-index-curriculum__wrapper4-lists{
-		grid-template-columns:repeat(3, 260px);
-		grid-template-rows:repeat(3, 156px);
-	}
+    .p-index-curriculum__wrapper4-text {
+      text-align: center;
+      margin-top: 25px;
+      width: 490px;
+    }
+    .p-index-curriculum__wrapper4-lists {
+      grid-template-columns: repeat(3, 260px);
+      grid-template-rows: repeat(3, 156px);
+    }
 
-	.p-index-curriculum__wrapper5{
-		width: 100%;
-	}
+    .p-index-curriculum__wrapper5 {
+      width: 100%;
+    }
 
-	.p-index-curriculum__wrapper5-container-img-wrapper{
-		margin-left: 110px;
-		width: 180px;
-		height: 180px;
-	}
-	.p-index-curriculum__wrapper5-sub-container{
-		margin-left: 130px;
-	}
+    .p-index-curriculum__wrapper5-container-img-wrapper {
+      margin-left: 110px;
+      width: 180px;
+      height: 180px;
+    }
+    .p-index-curriculum__wrapper5-sub-container {
+      margin-left: 130px;
+    }
 
-	.p-index-curriculum__wrapper6{
-		width: 100%;
-	}
-	.p-index-curriculum__wrapper6-lists{
-		grid-template-columns:repeat(3, 240px);
-	}
+    .p-index-curriculum__wrapper6 {
+      width: 100%;
+    }
+    .p-index-curriculum__wrapper6-lists {
+      grid-template-columns: repeat(3, 240px);
+    }
 
-	.p-index-curriculum__wrapper6-container-svg{
-		transform: translate(-330px,-30px);
-	}
+    .p-index-curriculum__wrapper6-container-svg {
+      transform: translate(-330px, -30px);
+    }
 
-	.p-index-curriculum__wrapper6-container-sub-container{
-		flex-direction: row;
-		width: 100%;
-	}
+    .p-index-curriculum__wrapper6-container-sub-container {
+      flex-direction: row;
+      width: 100%;
+    }
 
-	.p-index-curriculum__wrapper6-container-text{
-		width: 518px;
-	}
-	.p-index-curriculum__wrapper6-container-img-wrapper{
-		margin-left: 68px;
-	}
-	.p-index-curriculum__wrapper6-lists2{
-		font-size: 1.6rem;
-	}
-	.p-index-curriculum__wrapper6-lists2-list{
-		margin-left: 40px;
-	}
-
-	}
+    .p-index-curriculum__wrapper6-container-text {
+      width: 518px;
+    }
+    .p-index-curriculum__wrapper6-container-img-wrapper {
+      margin-left: 68px;
+    }
+    .p-index-curriculum__wrapper6-lists2 {
+      font-size: 1.6rem;
+    }
+    .p-index-curriculum__wrapper6-lists2-list {
+      margin-left: 40px;
+    }
+  }
 }
