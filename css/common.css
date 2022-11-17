@@ -62,7 +62,6 @@ table {
   bottom: 0vh;
   width: 100%;
   height: 54px;
-  background-color: #45CCC4;
 }
 .l-index-footer .l-index-footer__link-wrapper {
   display: grid;
@@ -73,6 +72,7 @@ table {
   width: 100%;
   height: 54px;
   font-size: 1rem;
+  background-color: #45CCC4;
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -97,6 +97,9 @@ table {
   border-bottom: 0;
   box-sizing: border-box;
   transform: translate(0, 0) rotate(45deg);
+}
+.l-index-footer .l-index-footer__link:hover {
+  filter: brightness(1.5);
 }
 
 @media screen and (min-width: 1250px) {
@@ -141,6 +144,9 @@ table {
     border-bottom: 0;
     box-sizing: border-box;
     transform: translate(0, -20px) rotate(45deg);
+  }
+  .l-index-sidebar .l-index-sidebar__side-button:hover {
+    filter: brightness(1.75);
   }
 }
 .c-container-title {
@@ -830,7 +836,7 @@ table {
   }
 }
 .p-index-sns {
-  background-image: url(/img/pc/リピートグリッド-4.png);
+  background-image: url(/img/pc/リピートグリッド-4.webp);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -838,7 +844,7 @@ table {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .p-index-sns .p-index-sns {
-    background-image: url(/img/pc/リピートグリッド-4@2x.png);
+    background-image: url(/img/pc/リピートグリッド-4@2x.webp);
   }
 }
 .p-index-sns .p-index-sns__title {
@@ -870,6 +876,10 @@ table {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+}
+.p-index-sns .p-index-sns__follow:hover {
+  background-color: #45CCC4;
+  color: #fff;
 }
 
 @media screen and (min-width: 1250px) {
