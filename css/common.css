@@ -149,7 +149,7 @@ table {
     filter: brightness(1.75);
   }
 }
-.c-container-title {
+.c-title {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   width: 89.744vw;

@@ -2,7 +2,7 @@
 @use "../../mixin" as m;
 
 // Base (Mobile First)
-.c-container-title {
+.c-title {
   border-top: 1px solid import.$color-black;
   border-bottom: 1px solid import.$color-black;
   width: 89.744vw;
