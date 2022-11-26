@@ -114,8 +114,7 @@
     font-size: 1.4rem;
   }
   .p-index-curriculum__wrapper2-container3 {
-    background-color: import.$color-lightblue;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,6 +122,16 @@
     margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 50px;
+    position: relative;
+    &::after{
+      content: "";
+      background-color: import.$color-lightblue;
+      width: 100vw;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    }
   }
   .p-index-curriculum__wrapper2-container3-svg {
     margin-top: 25px;

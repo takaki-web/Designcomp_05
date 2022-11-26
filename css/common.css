@@ -152,7 +152,7 @@ table {
 .c-title {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  width: 89.744vw;
+  width: 89.744%;
   max-width: 840px;
   height: 40px;
   display: flex;
@@ -414,8 +414,7 @@ table {
   font-size: 1.4rem;
 }
 .p-index-curriculum .p-index-curriculum__wrapper2-container3 {
-  background-color: #ecfcfb;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -423,6 +422,16 @@ table {
   margin-top: 20px;
   padding-top: 40px;
   padding-bottom: 50px;
+  position: relative;
+}
+.p-index-curriculum .p-index-curriculum__wrapper2-container3::after {
+  content: "";
+  background-color: #ecfcfb;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
 .p-index-curriculum .p-index-curriculum__wrapper2-container3-svg {
   margin-top: 25px;
