@@ -44,30 +44,30 @@ table {
     display: none;
   }
 }
-.l-index-header {
+.l-header {
   position: absolute;
 }
-.l-index-header .l-index-header__title {
+.l-header .l-header__title {
   margin-top: 24.59px;
   margin-left: 20px;
 }
 
 @media screen and (min-width: 1250px) {
-  .l-index-header .l-index-header__title {
+  .l-header .l-header__title {
     margin-left: 3.143vw;
   }
 }
-.l-index-footer {
+.l-footer {
   position: sticky;
   bottom: 0vh;
   width: 100%;
   height: 54px;
 }
-.l-index-footer .l-index-footer__link-wrapper {
+.l-footer .l-footer__link-wrapper {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
 }
-.l-index-footer .l-index-footer__link {
+.l-footer .l-footer__link {
   display: block;
   width: 100%;
   height: 54px;
@@ -81,10 +81,10 @@ table {
   gap: 2ch;
   border-right: 1px solid #fff;
 }
-.l-index-footer .l-index-footer__link:last-child {
+.l-footer .l-footer__link:last-child {
   border: none;
 }
-.l-index-footer .l-index-footer__link::before {
+.l-footer .l-footer__link::before {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -98,25 +98,25 @@ table {
   box-sizing: border-box;
   transform: translate(0, 0) rotate(45deg);
 }
-.l-index-footer .l-index-footer__link:hover {
+.l-footer .l-footer__link:hover {
   filter: brightness(1.5);
 }
 
 @media screen and (min-width: 1250px) {
-  .l-index-footer {
+  .l-footer {
     height: 76px;
   }
-  .l-index-footer .l-index-footer__link {
+  .l-footer .l-footer__link {
     height: 76px;
     font-size: 2rem;
   }
-  .l-index-footer .l-index-footer__link::before {
+  .l-footer .l-footer__link::before {
     width: 10px;
     height: 10px;
   }
 }
 @media screen and (min-width: 1250px) {
-  .l-index-sidebar .l-index-sidebar__side-button {
+  .l-sidebar .l-sidebar__side-button {
     background-color: #45ccc4;
     width: 48px;
     height: 210px;
@@ -131,7 +131,7 @@ table {
     align-items: center;
     justify-content: center;
   }
-  .l-index-sidebar .l-index-sidebar__side-button::before {
+  .l-sidebar .l-sidebar__side-button::before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -145,7 +145,7 @@ table {
     box-sizing: border-box;
     transform: translate(0, -20px) rotate(45deg);
   }
-  .l-index-sidebar .l-index-sidebar__side-button:hover {
+  .l-sidebar .l-sidebar__side-button:hover {
     filter: brightness(1.75);
   }
 }

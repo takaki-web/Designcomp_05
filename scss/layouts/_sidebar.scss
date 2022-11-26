@@ -4,8 +4,8 @@
 
 // sidebarセクション
 @include m.mq(pc) {
-  .l-index-sidebar {
-    .l-index-sidebar__side-button {
+  .l-sidebar {
+    .l-sidebar__side-button {
       background-color: import.$color-green;
       width: 48px;
       height: 210px;

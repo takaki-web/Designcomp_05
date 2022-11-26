@@ -3,17 +3,17 @@
 // Base (Mobile First)
 
 // headerセクション
-.l-index-header {
+.l-header {
   position: absolute;
-  .l-index-header__title {
+  .l-header__title {
     margin-top: 24.59px;
     margin-left: 20px;
   }
 }
 
 @include m.mq(pc) {
-  .l-index-header {
-    .l-index-header__title {
+  .l-header {
+    .l-header__title {
       margin-left: 3.143vw;
     }
   }
