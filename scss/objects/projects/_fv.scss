@@ -5,10 +5,11 @@
 // fvセクション
 .p-index-fv {
   .p-index-fv__img-wrapper {
-    width: 100vw;
-    img {
-      width: 100%;
-    }
+    background-image: url("/img/sp/mv-sp.webp");
+    height: 500px;
+    display: block;
+    background-size: cover;
+    background-repeat:no-repeat;
   }
   .p-index-fv__text {
     position: absolute;
@@ -24,7 +25,7 @@
   }
   .p-index-fv__circle {
     position: absolute;
-    right: 0vw;
+    right: 0;
     top: 315px;
     transform: scale(0.62, 0.62) translateX(60px);
   }
@@ -32,6 +33,11 @@
 
 @include m.mq(pc) {
   .p-index-fv {
+    .p-index-fv__img-wrapper {
+      background-image: url("/img/pc/mv-pc.webp");
+      height: 800px;
+    }
+
     .p-index-fv__text {
       top: 132px;
       left: 3.143vw;
