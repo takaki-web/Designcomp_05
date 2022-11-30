@@ -39,6 +39,9 @@
     padding-bottom: 20px;
     img {
       clip-path: circle(50% at 50% 50%);
+      max-width: 100%;
+      aspect-ratio: auto 280/280;
+      height: auto;
     }
     &::before {
       content: "";
